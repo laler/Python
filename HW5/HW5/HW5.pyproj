@@ -24,6 +24,11 @@
   <ItemGroup>
     <Compile Include="HW5.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bayesburglar.txt" />
+    <Content Include="bayesnets1.txt" />
+    <Content Include="bayesnets2.txt" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
