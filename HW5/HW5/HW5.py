@@ -25,13 +25,13 @@ def evaljointbayes(fname):
         for i in contents[num]:
             try:
                 j = float(i)
-                prob[num] = prob[num] + 1
+                prob[num] += 1
             except ValueError:
                 if i != 'NONE':
-                    nodes[num] = nodes[num] + 1       
+                    nodes[num] += 1       
 
     #print out the joint distribution function
-    print("2. The joint distribution using this network is :")
+    print("2. The joint distribution using this network is:")
     nodelist = []
     for line in contents:
         nodelist.append(line[0])
@@ -56,12 +56,12 @@ def evaljointbayes(fname):
     #        ') = <',printElement(line[-counter[num]::]),'>')
 
     #print out result of step 3    
-    additions = int(math.pow(2,length))
-    multiplications = length
+    additions = int(math.pow(2,length)) - 1
+    multiplications = length - 1
     print("3. Additions and multiplications needed to calculate",\
         "the joint distribution is: ", additions, "*", multiplications, \
         "=", additions * multiplications)
-    print("The number of nodes in the network is:", length)
+    print("The number of nodes in the network is: ", length)
 
     #print out reselt of step 4
     spaceFull = int(math.pow(2,length)) - 1
