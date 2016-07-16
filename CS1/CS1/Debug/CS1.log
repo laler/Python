@@ -1,2 +1,16 @@
-﻿  LabFive.cpp
-  CS1.vcxproj -> C:\Users\Zhen\Source\Repos\Python\CS1\Debug\CS1.exe
+﻿  LabSix.cpp
+c:\users\zhen\downloads\labsix.cpp(35): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\zhen\downloads\labsix.cpp(36): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\zhen\downloads\labsix.cpp(85): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(86): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(87): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(193): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(211): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(242): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(250): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(253): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(268): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(269): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\zhen\downloads\labsix.cpp(73): error C4700: uninitialized local variable 'choice' used
+c:\users\zhen\downloads\labsix.cpp(87): error C4700: uninitialized local variable 'pattern' used

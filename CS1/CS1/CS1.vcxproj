@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\LabFive.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LabSix.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A19794B6-1831-4D2A-925B-D1E1B63FD918}</ProjectGuid>

@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>72d47805-e697-4432-8caa-b8ee66be6167</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HW5.py</StartupFile>
+    <StartupFile>HW5-3.5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="HW5.py" />
+    <Compile Include="HW5-3.5.py" />
+    <Compile Include="HW5-Revised.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bayesburglar.txt" />
