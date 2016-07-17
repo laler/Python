@@ -83,8 +83,6 @@ def evaljointbayes(fname):
     fo.close()
 
     #print out result of step 3    
-    #additions = int(math.pow(2,length)) - 1
-    #multiplications = length - 1
     print("3. Additions and multiplications needed to calculate",\
         "the joint distribution is: ", additions, "and ", multiplications)
     print("The number of nodes in the network is: ", length)
