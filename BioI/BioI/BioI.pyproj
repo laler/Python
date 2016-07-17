@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0d9062dc-4055-4677-abbb-d71b2f3ecd77</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ori.py</StartupFile>
+    <StartupFile>BioI.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="k-mer.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ori.py" />
+    <Compile Include="BioI.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
